@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+
+.navbar-custom .navbar-brand {
+    color: #0C2B5C;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-custom .navbar-brand:active {
+    color: #CB7921;
+}
