@@ -13,3 +13,29 @@
 .navbar-custom .navbar-brand:active {
     color: #CB7921;
 }
+
+#myCarousel .carousel-item img {  
+    -o-object-fit: cover;  
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    overflow: hidden;
+    height:100vh;
+  }
+  
+#myCarousel .carousel-item div {
+    position: absolute;
+    top: 40%;
+}
+
+#myCarousel .carousel-item div h2{
+    color: #0C2B5C;
+    font-weight: bold;
+}
+
+.reserveButton {
+    background-color: #0C2B5C;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
