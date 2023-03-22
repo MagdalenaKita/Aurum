@@ -66,3 +66,7 @@
     -o-object-fit: cover;
        object-fit: cover;
 }
+
+.bg-footer {
+    background-color: #0C2B5C;
+}
