@@ -59,7 +59,16 @@
     background-position: center;
 }
 
-.offerHeader h1, .attractionsHeader h1 {
+.priceListHeader {
+    height: 400px;
+    margin-top: 120px;
+    background-image: url(images/cennik.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.offerHeader h1, .attractionsHeader h1, .priceListHeader h1 {
     color: #0C2B5C;
     font-weight: bold;
     font-size: 72px;
