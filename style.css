@@ -87,6 +87,10 @@
     padding: 25px 0;
 }
 
+.table td {
+    color: #0C2B5C;
+}
+
 .bg-footer {
     background-color: #0C2B5C;
 }
