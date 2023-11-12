@@ -65,44 +65,52 @@
                 <button type="button"
                     class="reserveButton text-uppercase text-white py-1 px-5 rounded mt-3">Rezerwuj</button>
             </div>
-            <div class="row g-4 pb-4">
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z1.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+            <div class="row g-4 pb-4 gallery">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z1.jpg" class="imageGallery" alt="Zdjęcie 1 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z7.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z7.jpg" class="imageGallery" alt="Zdjęcie 2 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z3.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z3.jpg" class="imageGallery" alt="Zdjęcie 3 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z4.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z4.jpg" class="imageGallery" alt="Zdjęcie 4 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z5.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z5.jpg" class="imageGallery" alt="Zdjęcie 5 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z6.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z6.jpg" class="imageGallery" alt="Zdjęcie 6 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z2.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z2.jpg" class="imageGallery" alt="Zdjęcie 7 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z8.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z8.jpg" class="imageGallery" alt="Zdjęcie 8 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z9.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z9.jpg" class="imageGallery" alt="Zdjęcie 9 na sliderze" onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z10.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z10.jpg" class="imageGallery" alt="Zdjęcie 10 na sliderze"
+                        onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z11.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z11.jpg" class="imageGallery" alt="Zdjęcie 11 na sliderze"
+                        onclick="showImage(src)">
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <img src="images/z12.jpg" class="imageGallery" alt="Zdjęcie pierwsze na sliderze">
+                <div class="col-sm-6 col-lg-4 gallery__item">
+                    <img src="images/z12.jpg" class="imageGallery" alt="Zdjęcie 12 na sliderze"
+                        onclick="showImage(src)">
                 </div>
             </div>
+            <div class="image-popup-container" id="imagePopup">
+                <span class="close-button" onclick="closeImage()">×</span>
+                <img src="" alt="Popup Image" id="popupImage">
+            </div>
+            <script src="gallery.js"></script>
         </div>
     </main>
     <footer>
@@ -134,6 +142,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
